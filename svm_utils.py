@@ -1,5 +1,10 @@
 __all__ = ['get_line', 'plot']
 
+
+import numpy as np
+from matplotlib import pyplot as plt
+from matplotlib.colors import ListedColormap
+
 def get_line(W, b, x):
     return (-W[0]*x+b)/W[1]
 
