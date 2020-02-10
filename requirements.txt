@@ -1,0 +1,6 @@
+matplotlib
+jupyter
+scikit-learn
+tensorflow > 2.0
+torch
+ipywidgets
